@@ -1,19 +1,19 @@
-# Andy Conteron - CV Web con Docker y Nginx
+# Andy Conteron - CV Web Estatico con Docker y Nginx
 
-Sitio web de cv personal desarrollado en HTML y desplegado en un contenedor Docker usando Nginx como servidor web
+Sitio web estatico de curriculum vitae personal desarrollado en HTML y desplegado en un contenedor Docker usando Nginx como servidor web.
 
 ---
 
-## Descripción del proyecto
+## Descripcion del proyecto
 
-Este proyecto consiste en un sitio HTML que muestra el CV personal de Andy Conteron. El sitio se sirve mediante Nginx dentro de un contenedor Docker.
+Este proyecto consiste en un sitio HTML que muestra el CV personal de Andy Conteron. El sitio se sirve mediante Nginx dentro de un contenedor Docker, lo que permite ejecutarlo en cualquier maquina sin necesidad de instalar dependencias adicionales.
 
 ---
 
 ## Estructura de carpetas
 
 ```
-Publicación_de_sitio_HTML/
+Publicacion_de_sitio_HTML/
 ├── img/
 │   └── blackhole.svg
 ├── index.html
@@ -48,23 +48,23 @@ http://localhost:8080
 
 ## Imagen en Docker Hub
 
-URL: https://hub.docker.com/r/andyconteron/web-nginx
+URL: https://hub.docker.com/r/emeth17/web-nginx
 
 ### Descargar la imagen
 
 ```bash
-docker pull andyconteron/web-nginx
+docker pull emeth17/web-nginx
 ```
 
 ### Ejecutar el contenedor desde Docker Hub
 
 ```bash
-docker run -d -p 8080:80 andyconteron/web-nginx
+docker run -d -p 8080:80 emeth17/web-nginx
 ```
 
 ---
 
-## Tecnologías utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - Nginx Alpine
@@ -74,6 +74,6 @@ docker run -d -p 8080:80 andyconteron/web-nginx
 
 ## Autor
 
-Andy Conteron  
-Estudiante de Ingeniería de Software - Universidad de las Fuerzas Armadas ESPE  
+Andy Conteron
+Estudiante de Ingenieria de Software - Universidad de las Fuerzas Armadas ESPE
 ajconteron@espe.edu.ec
