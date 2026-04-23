@@ -1,0 +1,13 @@
+# Historial y configuración de Git
+.git
+.gitignore
+
+# Documentación
+README.md
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del editor
+.vscode/
